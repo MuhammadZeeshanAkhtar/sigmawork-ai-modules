@@ -1,0 +1,28 @@
+# Project TODO
+
+- [x] Reconcile uploaded PDF and TXT requirements into an implementation audit matrix.
+- [x] Inspect and preserve the initialized full-stack SigmaWork template conventions and pre-built DashboardLayout/AIChatBox components.
+- [x] Define the shared resume schema and database relationships for profile-grounded AI features.
+- [x] Add Conversation and Message persistence with user isolation, modes, timestamps, and indexes.
+- [x] Add ResumeDraft persistence with structured shared resume JSON and selected template.
+- [x] Add InterviewSession and InterviewQA persistence with fixed five-question flow support.
+- [x] Implement authenticated protected procedures and authorization checks for all user-owned records.
+- [x] Implement the reusable server-side mode-aware LLM engine with system-prompt overrides.
+- [x] Implement profile/resume context retrieval and clean prompt-context summarization without raw JSON dumping.
+- [x] Implement chatbot message creation, conversation history, session persistence, rate limiting, scope guardrails, logging, and graceful AI failure handling.
+- [x] Implement resume draft create/read/update persistence and reload-after-refresh behavior.
+- [x] Implement profile-import prefill for contact, headline/summary, experience, education, and skills.
+- [x] Implement resume section add/edit/delete behavior for repeatable sections.
+- [x] Implement 2–3 ATS-safe single-column resume templates with selectable text and correct reading order.
+- [x] Implement AI bullet suggestions with explicit accept/edit/reject user controls and no silent replacement.
+- [x] Implement deterministic PDF generation from structured resume data and template.
+- [x] Validate exported PDF text programmatically with plain-text extraction.
+- [x] Implement interview setup, reusable-engine question generation, answer submission, answer-specific feedback, next-question flow, and five-question completion.
+- [x] Implement interview history, transcript retrieval, and user isolation.
+- [x] Build authenticated DashboardLayout navigation and dedicated chatbot, resume maker, and interview prep routes.
+- [x] Add loading, empty, validation, error, and graceful AI-unavailable states across all module UIs.
+- [x] Add Vitest coverage for shared schema, deterministic PDF generation, AI contract, and authenticated router contracts; runtime flows were also exercised through the integrated UI.
+- [x] Run type checks, an earlier successful production build, unit tests, PDF extraction smoke test, and browser route verification.
+- [x] Fix all discovered defects and document external AI/storage configuration requirements.
+- [x] Perform final requirement audit against the uploaded PDF and TXT.
+- [ ] Commit the completed implementation and push it to a private GitHub repository.
